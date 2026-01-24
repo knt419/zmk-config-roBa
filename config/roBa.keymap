@@ -93,21 +93,21 @@
             layers = <4>;
         };
 
-        home {
-            bindings = <&kp HOME>;
+        close {
+            bindings = <&holdtap LA(F4) LC(W)>;
+            key-positions = <32 33>;
+            layers = <0 1>;
+        };
+
+        left_paren {
+            bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <10 11>;
             layers = <0 1>;
         };
 
-        end {
-            bindings = <&kp END>;
-            key-positions = <20 21>;
-            layers = <0 1>;
-        };
-
-        close {
-            bindings = <&holdtap LA(F4) LC(W)>;
-            key-positions = <32 33>;
+        right_paren {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <21 20>;
             layers = <0 1>;
         };
     };
@@ -484,7 +484,7 @@
 
         SYSTEM {
             bindings = <
-&trans     &trans        &trans        &trans      &out OUT_USB                          &out OUT_USB  &trans      &trans        &trans        &trans
+&trans       &trans        &trans        &trans        &out OUT_USB                          &out OUT_USB  &trans        &trans        &trans        &trans
 &trans       &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans        &bt BT_CLR      &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &out OUT_BLE  &trans          &trans  &out OUT_BLE  &trans        &trans        &trans        &trans
 &bootloader  &trans        &trans        &trans        &trans        &trans          &trans  &trans                                                  &bootloader
