@@ -569,17 +569,17 @@ rect.held, rect.combo.held {
 <use href="#mdi:redo" xlink:href="#mdi:redo" x="636" y="138" height="18" width="18.0" class="combo tap glyph mdi:redo"/>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
-<text x="56" y="108" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-10">
-<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
-<text x="701" y="108" class="combo tap">END</text>
-</g>
-<g class="combo combopos-11">
 <rect rx="6" ry="6" x="687" y="152" width="28" height="26" class="combo"/>
 <text x="701" y="165" class="combo tap">Ctl+W</text>
 <text x="701" y="176" class="combo hold">Alt+F4</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">(</text>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">)</text>
 </g>
 </g>
 </g>
@@ -805,17 +805,17 @@ rect.held, rect.combo.held {
 <use href="#mdi:redo" xlink:href="#mdi:redo" x="636" y="138" height="18" width="18.0" class="combo tap glyph mdi:redo"/>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
-<text x="56" y="108" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-10">
-<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
-<text x="701" y="108" class="combo tap">END</text>
-</g>
-<g class="combo combopos-11">
 <rect rx="6" ry="6" x="687" y="152" width="28" height="26" class="combo"/>
 <text x="701" y="165" class="combo tap">Ctl+W</text>
 <text x="701" y="176" class="combo hold">Alt+F4</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">(</text>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">)</text>
 </g>
 </g>
 </g>

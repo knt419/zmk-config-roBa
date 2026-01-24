@@ -351,12 +351,12 @@ combos:
 - p: [18, 19]
   k: $$mdi:view-dashboard-outline$$
   l: [NUMBER]
-- p: [10, 11]
-  k: HOME
-  l: [DEFAULT, MOUSE]
-- p: [20, 21]
-  k: END
-  l: [DEFAULT, MOUSE]
 - p: [32, 33]
   k: {t: Ctl+W, h: Alt+F4}
+  l: [DEFAULT, MOUSE]
+- p: [10, 11]
+  k: (
+  l: [DEFAULT, MOUSE]
+- p: [21, 20]
+  k: )
   l: [DEFAULT, MOUSE]
